@@ -21,7 +21,7 @@ Pygsheets -- thanks to @nithinmurali for this amazing tool<br>
 
 <b><h4>How to use :</h4></b>
 1) Enable Sheets API and Drive API and download Service account credentials in a JSON file.
-2) Replace the YOUR_CREDENTIAL_FILE_HERE.json' with the path to the json file you downloaded.
+2) Replace the `YOUR_CREDENTIAL_FILE_HERE.json` with the path to the json file you downloaded.
 3) The files created by service account are not visible in your account. Replace `YOUR_EMAIL_HERE` with your Gmail id to be able to access the   files.<br>
             `sh.share('YOUR_EMAIL_HERE', role='writer', expirationTime=None, is_group=False)`<br>
 4) By default the sheet is publicly accesible, you can change it by commenting out this line<br>
